@@ -13,7 +13,7 @@ public class LinearSearch implements SearchBehavior {
      * @return true if person in list, else false
      */
     @Override
-    public boolean searchList(List<Person> people, Person personToFind) {
+    public boolean contains(List<Person> people, Person personToFind) {
         for (Person person : people) {
             if (person.equals(personToFind)) {
                 return true;

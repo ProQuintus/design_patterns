@@ -58,12 +58,4 @@ public class Attendees {
         Collections.sort(people);
         return people;
     }
-    /**
-     * Checks if the person is in the list
-     * @param person the Person object to be checked
-     * @return true if the person is in the list; otherwise, returns false
-     */
-    public boolean contains(Person person) {
-        return searchBehavior.searchList(people, person);
-    }
 }

@@ -14,7 +14,7 @@ public class BinarySearch implements SearchBehavior {
      * @return true if person in list, else false
      */
     @Override
-    public boolean searchList(List<Person> people, Person personToFind) {
+    public boolean contains(List<Person> people, Person personToFind) {
         Collections.sort(people);
         return Collections.binarySearch(people, personToFind) >= 0;
     }

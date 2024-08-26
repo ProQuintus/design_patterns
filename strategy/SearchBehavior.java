@@ -12,5 +12,5 @@ public interface SearchBehavior {
      * @param personToFind person to search for
      * @return Boolean on if the person is in the list
      */
-    boolean searchList(List<Person> people, Person personToFind);
+    boolean contains(List<Person> people, Person personToFind);
 }
