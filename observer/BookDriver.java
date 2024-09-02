@@ -28,16 +28,16 @@ public class BookDriver {
         bestSellers.addBook("The Second Husband", Genre.THRILLER, "Kate", "White","A woman’s seemingly perfect second marriage is rocked by a discovery about the death of her first husband in this twisty psychological thriller");
         bestSellers.addBook("Evidence of the Old World", Genre.HISTORICAL_FICTION, "David", "Edward", "This book doesn't merely challenge historical understanding; it compels readers to think critically, to question deeply entrenched beliefs, and to engage in the reevaluation of a history long considered settled.");
         
-        System.out.println("\n**** Our Stores BestSeller List *****\n");
+        System.out.println("\n**** Our Stores BestSeller List *****");
         displayStoreBooks((Store)Store);
 
-        System.out.println("\n***** Favorite Thrillers *****\n");
+        System.out.println("\n***** Favorite Thrillers *****");
         displayFanReads(Genre.THRILLER, (FanReads)fanReads);
 
-        System.out.println("\n***** Favorite Mysteries *****\n");
+        System.out.println("\n***** Favorite Mysteries *****");
         displayFanReads(Genre.MYSTERY, (FanReads)fanReads);
 
-        System.out.println("\n***** Favorite Historical Fiction's *****\n");
+        System.out.println("\n***** Favorite Historical Fiction's *****");
         displayFanReads(Genre.HISTORICAL_FICTION, (FanReads)fanReads);
 
     }

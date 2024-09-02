@@ -73,6 +73,6 @@ public class Book {
      */
     @Override
     public String toString() {
-        return "----- " + title + "-----\n" + genre.label + " by: " + authorFirstName + " " + authorLastName + "\n" + description + "\n";
+        return "\n----- " + title + "-----\n" + genre.label + " by: " + authorFirstName + " " + authorLastName + "\n" + description;
     }
 }
